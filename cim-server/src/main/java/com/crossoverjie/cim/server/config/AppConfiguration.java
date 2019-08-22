@@ -22,6 +22,9 @@ public class AppConfiguration {
     @Value("${app.zk.switch}")
     private boolean zkSwitch;
 
+    @Value("${cim.server.addr}")
+    private String cimServerAddr;
+
     @Value("${cim.server.port}")
     private int cimServerPort;
 
@@ -68,6 +71,14 @@ public class AppConfiguration {
 
     public void setZkSwitch(boolean zkSwitch) {
         this.zkSwitch = zkSwitch;
+    }
+
+    public String getCimServerAddr() {
+        return cimServerAddr;
+    }
+
+    public void setCimServerAddr(String cimServerAddr) {
+        this.cimServerAddr = cimServerAddr;
     }
 
     public int getCimServerPort() {

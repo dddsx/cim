@@ -32,7 +32,9 @@ public class PrintOnlineUsersCommand implements InnerCommand {
 
             LOGGER.info("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
             for (OnlineUsersResVO.DataBodyBean onlineUser : onlineUsers) {
-                LOGGER.info("userId={}=====userName={}", onlineUser.getUserId(), onlineUser.getUserName());
+                if (onlineUser != null) {
+                    LOGGER.info("userId={}=====userName={}", onlineUser.getUserId(), onlineUser.getUserName());
+                }
             }
             LOGGER.info("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 

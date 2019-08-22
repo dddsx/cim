@@ -7,7 +7,6 @@ import com.crossoverjie.cim.client.vo.req.GroupReqVO;
 import com.crossoverjie.cim.client.vo.req.P2PReqVO;
 import com.crossoverjie.cim.client.vo.res.OnlineUsersResVO;
 import com.crossoverjie.cim.common.data.construct.TrieTree;
-import com.crossoverjie.cim.common.enums.SystemCommandEnum;
 import com.crossoverjie.cim.common.util.StringUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
