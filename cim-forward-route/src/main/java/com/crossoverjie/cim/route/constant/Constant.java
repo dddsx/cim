@@ -13,17 +13,17 @@ public final class Constant {
     /**
      * 账号前缀
      */
-    public final static String ACCOUNT_PREFIX = "cim-account:";
+    public final static String ACCOUNT_PREFIX = "cim:account:";
 
     /**
      * 路由信息前缀
      */
-    public final static String ROUTE_PREFIX = "cim-route:";
+    public final static String ROUTE_PREFIX = "cim:route:";
 
     /**
      * 登录状态前缀
      */
-    public final static String LOGIN_STATUS_PREFIX = "login-status";
+    public final static String LOGIN_STATUS_PREFIX = "cim:login-status";
 
 
 }
